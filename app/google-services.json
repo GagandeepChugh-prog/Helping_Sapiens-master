@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1098100426517",
+    "firebase_url": "https://helping-984a2.firebaseio.com",
+    "project_id": "helping-984a2",
+    "storage_bucket": "helping-984a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098100426517:android:dd73ccaa060c7fc9",
+        "android_client_info": {
+          "package_name": "com.example.mukulsharma.helping_sapiens"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098100426517-mnlqck68m9dsm8goejc2i5gpqbb8u2fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBz-C8LojqyYJtlYCbJP2TRIS5USUghBL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

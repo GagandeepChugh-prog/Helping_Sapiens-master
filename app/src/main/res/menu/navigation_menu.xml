@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/glucose"
+        android:icon="@drawable/blsu"
+        android:title="Add Glucose Level"></item>
+    <item android:id="@+id/bp"
+        android:icon="@drawable/bp"
+        android:title="Add Blood Pressure"></item>
+    <item android:id="@+id/bodyweight"
+        android:icon="@drawable/weightscale"
+        android:title="Add Bodyweight"></item>
+    <item android:id="@+id/bmi"
+        android:icon="@drawable/bmi3"
+        android:title="Check BMI"></item>
+</menu>

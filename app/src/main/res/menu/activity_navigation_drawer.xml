@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/glucose"
+            android:icon="@drawable/blsu"
+            android:title="Add Request"></item>
+        <item android:id="@+id/bp"
+            android:icon="@drawable/bp"
+            android:title="View Requests"></item>
+        <item android:id="@+id/bodyweight"
+            android:icon="@drawable/weightscale"
+            android:title="Add Bodyweight"></item>
+        <item android:id="@+id/bmi"
+            android:icon="@drawable/bmi3"
+            android:title="Check Bmi"></item>
+        <item android:id="@+id/doctor"
+            android:icon="@drawable/doctor"
+            android:title="Doctors near me"></item>
+        <item android:id="@+id/reminder"
+            android:icon="@drawable/reminder"
+            android:title="Set Reminders"></item>
+        <item android:id="@+id/diet"
+            android:icon="@drawable/diet"
+            android:title="Today's Diet"></item>
+        <item android:id="@+id/excercise"
+            android:icon="@drawable/yoga"
+            android:title="Today's Excercise"></item>
+        <item android:id="@+id/aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About Us"></item>
+
+    </group>
+
+
+
+</menu>
