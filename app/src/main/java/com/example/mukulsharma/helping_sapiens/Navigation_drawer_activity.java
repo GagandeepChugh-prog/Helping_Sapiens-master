@@ -97,16 +97,24 @@ public class  Navigation_drawer_activity extends AppCompatActivity
                 break;
             case R.id.bp:
                 Intent in=new Intent(Navigation_drawer_activity.this,Read_Request.class);
+                Bundle bund=getIntent().getExtras();
+                String emails=bund.getString("Email");
+                in.putExtra("Email",emails);
                 startActivity(in);
                 break;
-         /*   case R.id.bodyweight:
-                fragment=new bodyweight();
+           case R.id.bodyweight:
+               Intent show=new Intent(Navigation_drawer_activity.this,Pending_Request.class);
+               Bundle bundl=getIntent().getExtras();
+               String emailss=bundl.getString("Email");
+               show.putExtra("Email",emailss);
+               startActivity(show);
                 break;
 
             case R.id.bmi:
-                fragment=new bmifrag();
+                Intent showall=new Intent(Navigation_drawer_activity.this,View_All.class);
+                startActivity(showall);
                 break;
-
+/*
             case R.id.reminder:
                 Intent s=new Intent(graphactivity.this,TaskHome.class);
                 startActivity(s);

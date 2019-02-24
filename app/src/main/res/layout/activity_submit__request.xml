@@ -7,26 +7,12 @@
     tools:context=".Submit_Request">
 
     <EditText
-        android:id="@+id/category"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Category"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_centerHorizontal="true"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.271" />
-
-    <EditText
         android:id="@+id/detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-      android:layout_centerHorizontal="true"
-        android:layout_below="@+id/category"
+        android:layout_alignTop="@+id/spinnerss"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
         android:ems="10"
         android:hint="Detail"
         android:inputType="textPersonName"
@@ -44,4 +30,12 @@
         android:text="Submit"
         app:layout_constraintTop_toBottomOf="@+id/detail"
         tools:layout_editor_absoluteX="148dp" />
+    <Spinner
+        android:id="@+id/spinnerss"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/background"
+        android:spinnerMode="dialog" />
 </RelativeLayout>

@@ -5,33 +5,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Read_Request">
+
     <EditText
         android:id="@+id/distance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:hint="Distance Limit"
-        />
-    <EditText
-        android:id="@+id/category"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/distance"
-        android:hint="Category"/>
+        android:layout_marginTop="107dp"
+        android:hint="Distance Limit" />
+
     <Button
         android:id="@+id/submit1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="Submit"
-        android:layout_below="@+id/category"/>
+        android:layout_alignStart="@+id/distance"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="176dp"
+        android:text="Submit" />
+
     <Button
+        android:id="@+id/fal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="data"
-        android:id="@+id/fal"
         android:layout_below="@+id/submit1"
-        android:layout_centerHorizontal="true"/>
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="data" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/background"
+        android:spinnerMode="dialog" />
 
 </RelativeLayout>

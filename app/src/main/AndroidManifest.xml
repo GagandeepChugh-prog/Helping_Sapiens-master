@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mukulsharma.helping_sapiens">
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +25,13 @@
         <activity android:name=".Submit_Request" />
         <activity android:name=".Read_Request" />
         <activity android:name=".Solver" />
-        <activity android:name=".List"></activity>
+        <activity android:name=".List" />
+        <activity android:name=".Rating" />
+        <activity android:name=".Pending_Request" />
+        <activity android:name=".Provider_Rating" />
+        <activity android:name=".View_All" />
+        <activity android:name=".viewprovider"></activity>
+        <activity android:name=".Listprovide"></activity>
     </application>
 
 </manifest>
